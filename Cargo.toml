@@ -1,0 +1,15 @@
+[package]
+name = "isobrowsecli"
+version = "0.1.0"
+edition = "2021"
+
+# İşte sihirli dokunuş: Çıktı binary adını "iso" yapıyoruz
+[[bin]]
+name = "iso"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0"
+wasmtime = "18.0.0"
+wasmtime-wasi = "18.0.0"
+ureq = "2.9.1"
