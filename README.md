@@ -45,6 +45,16 @@ cat application.log | iso run https://.../log-cleaner.wasm > output.json
 
 ---
 
+## 📥 Installation
+
+Install the pre-compiled binary for macOS or Linux with a single command:
+
+```bash
+curl -fsSL [https://raw.githubusercontent.com/igtumt/isobrowsecli/main/install.sh](https://raw.githubusercontent.com/igtumt/isobrowsecli/main/install.sh) | sh
+```
+
+---
+
 ## 🛠️ Building from Source
 
 Ensure you have the Rust toolchain installed, then clone and build:
